@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&display=swap');
+
+body {
+    font-family: "Chocolate Classical Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0;
+    overflow-x: hidden;
+    max-width: 2796px; /* Maximum width */
+    width: 100vw; /* Full viewport width */
+    max-width: 430px; /* Maximum content width */
+    margin: 0 auto; /* Center the body */
+    position: relative; /* Needed for correct positioning of the fixed elements */
+    background-color: #dedcdc;
+}
+
+p{
+    width: 80%;
+    margin-left: 10%;
+}
+
+#titleContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: min-content;
+    margin-top: 20px;
+}
+
+#titleImg {
+    position: absolute;
+    top: 0;
+    transform: translate(40px, 30px);
+    width: 75px;
+}
+
+#titleText {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    position: relative;
+}
+
+#lineUnderTitle {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.BodyImg{
+    margin-left: 10%;
+    width: 80%;
+    height: auto;
+}

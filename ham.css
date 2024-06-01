@@ -1,0 +1,73 @@
+.menu-icon {
+    width: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 20px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.menu-icon .bar {
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    transition: 0.4s;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #7d7c7c;
+    text-align: center;
+    transition: top 0.5s;
+}
+
+.nav-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-menu ul li {
+    padding: 15px 0;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.nav-menu.show {
+    top: 0;
+}
+
+.menu-icon.cross #bar1 {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.menu-icon.cross #bar2 {
+    opacity: 0;
+}
+
+.menu-icon.cross #bar3 {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Media query to adjust the position of the menu icon for smaller screens */
+@media (max-width: 430px) {
+    .menu-icon {
+        right: 20px;
+    }
+}
