@@ -1,4 +1,31 @@
 #list{
+    margin-left: 10%;
     width: 80%;
-    align-content: center;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+img{
+    width: 100%;
+    margin-top: 50px;
+}
+
+.aanbodTitle{
+    margin: 0;
+}
+
+.maringTop{
+    margin-top: 50px;
+}
+
+.aanbodSpecificTitle{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    line-height: 1;
+    position: relative;
 }
