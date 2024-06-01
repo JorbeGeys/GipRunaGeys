@@ -32,7 +32,7 @@ p{
 #titleImg {
     position: absolute;
     top: 0;
-    transform: translate(40px, 30px);
+    transform: translate(30px, 20px);
     width: 75px;
 }
 
