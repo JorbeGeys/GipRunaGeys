@@ -18,8 +18,12 @@ img{
     margin: 0;
 }
 
-.maringTop{
-    margin-top: 50px;
+#extras{
+    text-align: center;
+}
+
+#extras p{
+    margin-top: 0;
 }
 
 .aanbodSpecificTitle{
